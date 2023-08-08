@@ -4,21 +4,10 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-
-  const scripts = '<script src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=280&amp;locationId=3927163&amp;lang=en_PH&amp;border=true&amp;display_version=2"></script><script async src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=784&amp;locationId=3927163&amp;lang=en_UK&amp;year=2019&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>';
-  
-  const test = '<div class="TA_cdsratingsonlynarrow" id="TA_cdsratingsonlynarrow280"> <p class="R8spsIHdQbu"><a href="https://www.tripadvisor.com.ph/" target="_blank"><img alt="TripAdvisor" src="https://www.tripadvisor.com.ph/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" /></a></p> </div><div class="TA_tchotel" id="TA_tchotel784"> <ul class="TA_links f0grLMTT4" id="iZmi1Q37gPqk"> <li class="NKClrY" id="2HQnhf8K"> <a href="https://www.tripadvisor.co.uk/Hotel_Review-g1872021-d3927163-Reviews-Casa_Amihan-Anda_Bohol_Island_Bohol_Province_Visayas.html" target="_blank"><img alt="TripAdvisor" src="https://www.tripadvisor.co.uk/img/cdsi/img2/awards/tchotel_2019_LL_R-11655-2.jpg" /></a></li> </ul> </div><p><a href="https://www.kayak.com/Anda-Hotels-Casa-Amihan.500738.ksp" target="_blank"><img height="15px" src="https://content.r9cdn.net/seo-res/badges/v5/DARK_SMALL_HOTELS_ASIA_PACIFIC.png" /></a></p>'
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-<div
-      dangerouslySetInnerHTML={{__html: scripts}}
-    />
-    <div
-      dangerouslySetInnerHTML={{__html: test}}
-    />
-
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
