@@ -11,6 +11,7 @@ export default function About() {
   return (
     <>
       <div>
+        <h2>Abouttttt</h2>
         <Hello />
       </div>
     </>
